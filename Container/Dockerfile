@@ -1,4 +1,4 @@
-FROM node:6-stretch
+FROM node:iron-bookworm-slim
 
 RUN mkdir /usr/src/goof
 RUN mkdir /tmp/extracted_files
